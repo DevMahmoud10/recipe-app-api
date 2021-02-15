@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'CoreApp',
-    'user'
+    'user',
+    'recipe',
 ]
 
 MIDDLEWARE = [
@@ -124,4 +125,3 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 AUTH_USER_MODEL = 'CoreApp.User'
-
